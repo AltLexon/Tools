@@ -4,3 +4,5 @@ local Script = {}
 function Script:GetCharacter()
   return Players.LocalPlayer:WaitForChild('Character', 9e9)
 end
+
+return Script
